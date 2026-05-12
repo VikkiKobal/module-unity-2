@@ -27,6 +27,12 @@ terminals/
 # Recordings can get excessive in size
 /[Rr]ecordings/
 
+# Локальні скрипти збірки сцен (у репо лише готові .unity / .anim / контролери)
+Assets/Editor/Module2BurrowsEditorSetup.cs
+Assets/Editor/Module2BurrowsEditorSetup.cs.meta
+Assets/Editor/Task2Module2ZScaleSceneSetup.cs
+Assets/Editor/Task2Module2ZScaleSceneSetup.cs.meta
+
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
 
