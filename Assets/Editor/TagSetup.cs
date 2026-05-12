@@ -1,15 +1,13 @@
 using UnityEngine;
 using UnityEditor;
 
-/// <summary>
-/// Автоматично додає потрібні теги при компіляції проєкту.
-/// </summary>
 [InitializeOnLoad]
 public static class TagSetup
 {
     static TagSetup()
     {
         AddTag("Car");
+        AddTag("Enemy");
     }
 
     private static void AddTag(string tag)
